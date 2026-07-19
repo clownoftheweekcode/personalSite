@@ -31,7 +31,7 @@
     max-height:600px;
     height:600px;
 }
-.header h4 {
+.header h4, .header h3 {
     background-color: #c3e4f7;
     padding:5px;
 }
@@ -68,4 +68,18 @@
 .projectThumb {
     width:100px;
     height:100px;
+}
+#Yahtzee, #webOS {
+    display:inline;
+}
+#main {
+    padding-top: 10px;
+}
+#topRight, #profile {
+    display: flex;
+}
+#topRight {
+}
+#profile {
+    display:block;
 }
